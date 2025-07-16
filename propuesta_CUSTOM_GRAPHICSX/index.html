@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Custom Graphicsx - Diseño y Protección Vehicular de Alto Rendimiento
+    </title>
+    <meta
+      name="description"
+      content="Especialistas en Vehicle Wrapping, Paint Protection Film (PPF) y Polarizado Arquitectónico. Eleva el estilo de tu vehículo con acabados de lujo y protección superior."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+<header class="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo">
+      <img
+        src="./assets/media/logo_custom.png"
+        alt="Custom Graphicsx Logo"
+      />
+    </a>
+
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="#services" class="nav__link">Servicios</a>
+      </li>
+      <li class="nav__item">
+        <a href="#gallery" class="nav__link">Proyectos</a>
+      </li>
+      <li class="nav__item">
+        <a href="#process" class="nav__link">Metodología</a>
+      </li>
+      <li class="nav__item">
+        <a href="#contact" class="nav__link nav__link--button"
+          >Cotiza tu Proyecto</a
+        >
+      </li>
+    </ul>
+
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+</header>
+
+<div class="nav__menu" id="nav-menu">
+  <ul class="nav__list--mobile">
+    <li class="nav__item">
+      <a href="#services" class="nav__link">Servicios</a>
+    </li>
+    <li class="nav__item">
+      <a href="#gallery" class="nav__link">Proyectos</a>
+    </li>
+    <li class="nav__item">
+      <a href="#process" class="nav__link">Metodología</a>
+    </li>
+    <li class="nav__item">
+      <a href="#contact" class="nav__link nav__link--button"
+        >Cotiza tu Proyecto</a
+      >
+    </li>
+  </ul>
+  <div class="nav__close" id="nav-close">
+    <i class="fas fa-times"></i>
+  </div>
+</div>
+
+    <main>
+      <section class="hero">
+        <div class="hero__img">
+          <img
+            src="./assets/media/hero.png"
+            alt="Custom Graphicsx Hero Image"
+            class="hero__image"
+          />
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content container">
+          <h1 class="hero__title">
+            Diseñado para Destacar. <br />
+            Creado para Durar.
+          </h1>
+          <p class="hero__subtitle">
+            Especialistas en Vehicle Wrapping, Paint Protection Film (PPF) y
+            Polarizado de Alto Rendimiento.
+          </p>
+          <a href="#contact" class="button button--primary"
+            >COTIZA TU PROYECTO <i class="fas fa-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section class="section container" id="services">
+        <h2 class="section__title">Soluciones Integrales de Personalización</h2>
+        <div class="services__carousel-wrapper">
+          <div class="services__grid">
+            <div class="service-card">
+              <div class="service-card__icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3 class="service-card__title">Vehicle Wrapping</h3>
+              <p class="service-card__description">
+                Transformación de color y estilo con vinilos premium. Acabados
+                mate, satinados, brillantes y texturizados.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="service-card__title">Paint Protection Film (PPF)</h3>
+              <p class="service-card__description">
+                Película transparente auto-regenerativa que protege tu pintura
+                original contra rayones y daños del camino.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon"><i class="fas fa-sun"></i></div>
+              <h3 class="service-card__title">Polarizado Inteligente</h3>
+              <p class="service-card__description">
+                Reducción de calor y protección UV sin sacrificar visibilidad.
+                Confort y privacidad para tu vehículo.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="service-card__icon">
+                <i class="fas fa-spray-can-sparkles"></i>
+              </div>
+              <h3 class="service-card__title">Nano Cerámico</h3>
+              <p class="service-card__description">
+                Recubrimiento que brinda un brillo extremo, repelencia al agua y
+                una capa extra de protección duradera.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <h2 class="section__title">Nuestro Trabajo Habla por Nosotros</h2>
+          <div class="gallery__filters">
+            <button class="gallery__filter-btn active" data-filter="all">
+              Todos
+            </button>
+            <button class="gallery__filter-btn" data-filter="car">
+              Wrapping Autos
+            </button>
+            <button class="gallery__filter-btn" data-filter="moto">
+              Wrapping Motos
+            </button>
+            <button class="gallery__filter-btn" data-filter="ppf">PPF</button>
+          </div>
+        </div>
+        <div class="gallery__container">
+          <div class="gallery__item" data-category="car">
+            <img
+              src="./assets/media/wrap1.jpg"
+              alt="Corvette Blanco"
+            />
+          </div>
+          <div class="gallery__item" data-category="moto">
+            <img
+              src="./assets/media/moto1.jpg"
+              alt="Moto Amarilla"
+            />
+          </div>
+          <div class="gallery__item" data-category="ppf">
+            <img
+              src="./assets/media/wrap2.jpg"
+              alt="BMW Negro"
+            />
+          </div>
+          <div class="gallery__item" data-category="car">
+            <img
+              src="./assets/media/wrap3.jpg"
+              alt="Frente Mercedes"
+            />
+          </div>
+          <div class="gallery__item" data-category="moto">
+            <img
+              src="./assets/media/moto2.jpg"
+              alt="Moto Verde"
+            />
+          </div>
+          <div class="gallery__item" data-category="ppf">
+            <img
+              src="./assets/media/ppf1.jpg"
+              alt="Instalando PPF"
+            />
+          </div>
+          <div class="gallery__item" data-category="car">
+            <img
+              src="./assets/media/ppf2.jpg"
+              alt="Carro Gris"
+            />
+          </div>
+          <div class="gallery__item" data-category="moto">
+            <img
+              src="./assets/media/moto3.jpg"
+              alt="Moto con Gráficos"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <h2 class="section__title section__title--small">
+          Calidad Garantizada con los Mejores Aliados
+        </h2>
+        <div class="partners__container">
+          <img
+            src="./assets/logos/3m.png"
+            alt="3M Logo"
+          />
+          <img
+            src="https://spectrapolarizados.com/wp-content/themes/spectra/assets/img/logo-footer.svg"
+            alt="SPECTRA Logo"
+          />
+          <!-- <img
+            src="https://stekautomotive.com/wp-content/uploads/2021/09/stek-logo.png"
+            alt="STEK Logo"
+          />
+          <img
+            src="https://orafol.com/imglib/orafol_logo.svg"
+            alt="Orafol Logo"
+          /> -->
+        </div>
+      </section>
+
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="section__title">Clientes que Confían en la Corona</h2>
+          <div class="testimonials__grid">
+            <div class="testimonial-card">
+              <img
+                src="https://i.postimg.cc/j5G0pL1z/mercedes.jpg"
+                alt="Proyecto blazer
+                class="testimonial-card__img"
+              />
+              <p class="testimonial-card__text">
+                "El nivel de detalle y profesionalismo es de otro mundo. Mi
+                carro parece sacado de una agencia de lujo. ¡Totalmente
+                recomendados!"
+              </p>
+              <div class="testimonial-card__author">
+                <h4 class="testimonial-card__name">cliente x 1</h4>
+                <p class="testimonial-card__project">
+                  Wrap Completo - auto x
+                </p>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <img
+                src="https://i.postimg.cc/zX250BwL/moto-amarilla.jpg"
+                alt="Proyecto Moto"
+                class="testimonial-card__img"
+              />
+              <p class="testimonial-card__text">
+                "Transformaron mi moto por completo. El diseño quedó exactamente
+                como lo imaginé y la calidad del material es A1."
+              </p>
+              <div class="testimonial-card__author">
+                <h4 class="testimonial-card__name">cliente x 2</h4>
+                <p class="testimonial-card__project">
+                  Gráficos Personalizados - vehiculo x2
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="process">
+        <h2 class="section__title">
+          Nuestra Metodología: Precisión en Cada Paso
+        </h2>
+        <div class="process__grid">
+          <div class="process-step">
+            <div class="process-step__number">01</div>
+            <div class="process-step__icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="process-step__title">Consulta y Diseño</h3>
+            <p>
+              Escuchamos tu visión y creamos un render digital para que apruebes
+              el diseño final antes de empezar.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">02</div>
+            <div class="process-step__icon"><i class="fas fa-soap"></i></div>
+            <h3 class="process-step__title">Preparación Detallada</h3>
+            <p>
+              Descontaminación y preparación exhaustiva de la superficie, la
+              base para un acabado perfecto y duradero.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">03</div>
+            <div class="process-step__icon">
+              <i class="fas fa-ruler-combined"></i>
+            </div>
+            <h3 class="process-step__title">Instalación Maestra</h3>
+            <p>
+              Nuestros técnicos certificados aplican el material con precisión
+              milimétrica, cuidando cada borde y detalle.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-step__number">04</div>
+            <div class="process-step__icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 class="process-step__title">Control y Entrega</h3>
+            <p>
+              Inspección final bajo luces especiales para garantizar un acabado
+              impecable antes de entregarte las llaves.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact__container container">
+          <div class="contact__info">
+            <h2 class="section__title section__title--left">
+              ¿Listo para Empezar tu Proyecto?
+            </h2>
+            <p class="contact__description">
+              Completa el formulario y nuestro equipo de expertos se pondrá en
+              contacto contigo para asesorarte.
+            </p>
+            <div class="contact__details">
+              <a
+                href="https://wa.me/573155734981"
+                target="_blank"
+                class="contact__detail-item"
+              >
+                <i class="fab fa-whatsapp"></i> 315 5734981
+              </a>
+              <a
+                href="mailto:contacto@customgraphicsx.com"
+                class="contact__detail-item"
+              >
+                <i class="far fa-envelope"></i> contacto@customgraphicsx.com
+              </a>
+              <a href="#" class="contact__detail-item">
+                <i class="fas fa-map-marker-alt"></i> Bucaramanga - Santander,
+                Colombia
+              </a>
+            </div>
+          </div>
+          <form action="#" class="contact__form">
+            <div class="form__group">
+              <label for="name" class="form__label">Nombre Completo</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form__input"
+                placeholder="Ingresa tu nombre"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label">WhatsApp / Teléfono</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form__input"
+                placeholder="Ingresa tu número de teléfono"
+                required
+              />
+            </div>
+            <div class="form__group">
+              <select id="service" name="service" class="form__input" required>
+                <option value="" disabled selected>
+                  ¿Qué servicio te interesa?
+                </option>
+
+                <option value="wrapping">Vehicle Wrapping</option>
+                <option value="ppf">Paint Protection Film (PPF)</option>
+                <option value="polarizado">Polarizado Inteligente</option>
+                <option value="ceramico">Nano Cerámico</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label"
+                >Cuéntanos sobre tu proyecto</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="form__input"
+                placeholder="Describe tu proyecto, preferencias de diseño, etc."
+              ></textarea>
+            </div>
+            <button type="submit" class="button button--full">
+              OBTENER MI COTIZACIÓN
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__brand">
+          <img
+            src="./assets/media/logo_custom_footer.png"
+            alt="Custom Graphicsx Logo"
+            class="footer__logo"
+          />
+          <p>Calidad y estilo para tu vehiculo y marca</p>
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/custom_graphicsx_?igsh=MXZndmtrdGtreGRsbg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1F9ktSQPR3/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@impresioncustomgraphicx2?_t=ZS-8xZ5T5MgtCU&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">Navegación</h4>
+          <ul>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#gallery">Proyectos</a></li>
+            <li><a href="#process">Metodología</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">Contacto</h4>
+          <ul>
+            <li><i class="fab fa-whatsapp"></i> 315 5734981</li>
+            <li>
+              <i class="far fa-envelope"></i> contacto@customgraphicsx.com
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>
+          &copy; <span id="year"></span> Custom Graphicsx. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
